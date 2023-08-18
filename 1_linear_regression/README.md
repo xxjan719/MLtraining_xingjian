@@ -1,5 +1,5 @@
 ## Linear regression
-@Ruitai, try to present some detials about linear regression here.
+@Xingjian, try to present some detials about linear regression here.
 
 ### Assignment
 This task is to implement the linear regression includes two parts.

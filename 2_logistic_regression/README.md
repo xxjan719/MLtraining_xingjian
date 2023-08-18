@@ -1,5 +1,5 @@
 ## Logistic regression
-@Ruitai, try to present detials about logistic regression
+@Xingjian, try to present detials about logistic regression
 
 ### Assignment
 This taks is to implement the logistic regression similiar as what we did to linear regression.
