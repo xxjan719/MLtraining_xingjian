@@ -35,8 +35,7 @@ def normalize(x):
     for i in range(x.shape[1]):
         # print(i)
         # print(x[:, i])
-        x[:, i] = (x[:, i] - x[:, i].min()) / (x[:, i].max() - x[:,
-                                                               i].min())  # normalize each column of x seperately. x_new = (x_old - x_old.min())/(x_old.max - x_old.min())
+        x[:, i] = (x[:, i] - x[:, i].min()) / (x[:, i].max() - x[:, i].min())  # normalize each column of x seperately. x_new = (x_old - x_old.min())/(x_old.max - x_old.min())
 
     return x
 
