@@ -73,4 +73,12 @@ make
 ```
 Compared with directly using g++ instructions to compile each program and source file, when we use cmake to compile a C++ project, we only need to manage and maintain __a file called CMakeLists.txt__. For example: If we want to add another executable file, we only need to add a line of "add_executable" command in CMakeLists.txt, and the subsequent steps do not need to be changed.
 
+
+When compiling according to the above process, the only regret is that the intermediate files generated during the compilation process stay in this folder (cppSpace folder). These intermediate files need to be removed when we release the code, which causes some inconvenience. , the solution is: Create a new intermediate directory (folder) to store these intermediate files, and delete this intermediate directory directly after the compilation is successful. So the more common way is in the terminal:
+```
+mkdir build
+cd build
+cmake ..
+make
+```
    
