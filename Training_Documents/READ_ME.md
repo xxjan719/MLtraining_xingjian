@@ -18,3 +18,8 @@ int main(){
 cout<<"Hello World!"<<endl;
 return 0;}
 ```
+Then Run C++ for this coding:
+```
+g++ 01_hello_world.cpp -o 01_hello world // use g++ to run the code. 01_hello_world after -o is an output result.
+./01_hello_world // Execute under the terminal, print "Hello, World!" and wrap.
+```
