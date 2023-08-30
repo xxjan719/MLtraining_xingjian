@@ -1,5 +1,15 @@
 # Some code tips for using git or github
 This is project to upload the details by using git and github.
+
+## [Ubuntu git download](https://blog.csdn.net/beishanyingluo/article/details/107451921)
+```
+sudo apt-get install git
+git config --global user.name "aaa"
+git config --global user.email "aa@example.com"
+ssh-keygen -t rsa -C"aa@example.com"
+```
+
+
 ## [Some os codes for using](https://blog.csdn.net/l_liangkk/article/details/78729059) 
 I always forget some codes. This is for remembering them.
 ```
@@ -104,6 +114,16 @@ cmake ..
 make
 ./main
 ```
-
+## [download arpack-ng](https://github.com/opencollab/arpack-ng)
+```
+$ git clone git@github.com:opencollab/arpack-ng.git
+$ cd ./arpack-ng
+$ which cmake && cmake --version
+$ mkdir build
+$ cd build
+$ cmake -D EXAMPLES=ON -D MPI=ON -D BUILD_SHARED_LIBS=ON ..
+$ make
+$ sudo make install
+```
 
 
