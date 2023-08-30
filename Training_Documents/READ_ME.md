@@ -1,6 +1,6 @@
 # Some code tips for using git or github
 This is project to upload the details by using git and github.
-## some os code for using 
+## [Some os codes for using](https://blog.csdn.net/l_liangkk/article/details/78729059) 
 I always forget some codes. This is for remembering them.
 ```
 cd ..  //Return to the previous directory.
@@ -32,3 +32,4 @@ Then Run C++ for this coding:
 g++ 01_hello_world.cpp -o 01_hello world // use g++ to run the code. 01_hello_world after -o is an output result.
 ./01_hello_world // Execute under the terminal, print "Hello, World!" and wrap.
 ```
+2.
