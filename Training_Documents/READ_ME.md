@@ -10,7 +10,7 @@ cd 01_hello_world
 ls 01_hello_world //check other folder in this '01_hello_world' folder
 vim 01_hello_world.cpp
 ```
-Then we can edit in this cpp file like this
+Then we can edit in this '01_hello_world.cpp' file like this
 ```
 #include<iostream>
 using namespace std;
