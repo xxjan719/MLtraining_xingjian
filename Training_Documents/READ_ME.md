@@ -32,7 +32,9 @@ Then Run C++ for this coding:
 g++ 01_hello_world.cpp -o 01_hello world // use g++ to run the code. 01_hello_world after -o is an output result.
 ./01_hello_world // Execute under the terminal, print "Hello, World!" and wrap.
 ```
-2. [Simple C++ coding by using Cmake](https://zhuanlan.zhihu.com/p/110513954) \\
+2. [Simple C++ coding by using Cmake](https://zhuanlan.zhihu.com/p/110513954)
+
+   
 About how to use it, please see the link. There only is the exploring code for using Cmake
 ```
 cd Desktop
@@ -40,7 +42,9 @@ mkdir cppSpace
 cd cppSpace
 vim HelloWorld.cpp
 ```
+
 click 'o' in keyboard to unlock the editing condition.
+
 Then typing this following code
 ```
 #include<iostream>
@@ -49,9 +53,13 @@ int main(){
 cout<<"Hello world!"<<endl;
 return 0;}
 ```
+
 Then click 'Esc' in keyboard to lock the editing condition.
+
 Then click 'Alt' + ':' in keyboard to generate ':' in the screen.
+
 Then click 'wq' to exit the cpp file(w means saving the file, q means editing the file.)
+
 In folder cppSpace, we create .txt file named 'CMakeLists.txt'(This name is very important and can not be removed. If you do it, the code will generate debug.) And we open it to write this following down in the file.
 ```
 cmake_minimum_required(VERSION 2.8)
