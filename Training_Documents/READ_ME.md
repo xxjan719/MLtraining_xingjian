@@ -81,4 +81,8 @@ cd build
 cmake ..
 make
 ```
-   
+3. [Multiple source files in the same directory in Cmake](https://blog.csdn.net/whahu1989/article/details/82078563)
+Have already done! We need to pay more attention to the following structure section.
+
+4. [Structure for Cmake](https://blog.csdn.net/whahu1989/article/details/82078563)
+
