@@ -1,5 +1,13 @@
 # Some code tips for using git or github
 This is project to upload the details by using git and github.
+## some os code for using 
+I always forget some codes. This is for remembering them.
+```
+cd ..  //Return to the previous directory.
+cd ../..  //Return to the previous second directory.
+cd or cd ~ //Return to home page.
+cd - content // Return to the specific directory.
+```
 ## Some regular code for Ubuntu Linux system
 1. [Simple C++ coding](https://blog.csdn.net/w464960660/article/details/129357160)
 
