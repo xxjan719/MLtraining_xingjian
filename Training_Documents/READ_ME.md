@@ -125,5 +125,40 @@ $ cmake -D EXAMPLES=ON -D MPI=ON -D BUILD_SHARED_LIBS=ON ..
 $ make
 $ sudo make install
 ```
+## [download eigen]([https://github.com/opencollab/arpack-ng](https://blog.csdn.net/p942005405/article/details/100653731])
+```
+$ #include <iostream>
+$ #include <Eigen/Dense>
+ 
+$ //using Eigen::MatrixXd;
+$ using namespace Eigen;
+$ using namespace Eigen::internal;
+$ using namespace Eigen::Architecture;
+ 
+$ using namespace std;
+ 
+$ int main()
+$ {
+$        cout<<"*******************1D-object****************"<<endl;
+$        Vector4d v1;
+$        v1<< 1,2,3,4;
+$        cout<<"v1=\n"<<v1<<endl;
+$ 
+$        VectorXd v2(3);
+$        v2<<1,2,3;
+$        cout<<"v2=\n"<<v2<<endl;
+$ 
+$        Array4i v3;
+$        v3<<1,2,3,4;
+$        cout<<"v3=\n"<<v3<<endl;
+$ 
+$        ArrayXf v4(3);
+$        v4<<1,2,3;
+$        cout<<"v4=\n"<<v4<<endl;
+$ }
+```
+```
+$ g++ eigen-test.cpp -o eigen-test
+```
 
 
