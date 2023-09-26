@@ -1,0 +1,3 @@
+/home/xingjian/Desktop/cpp_file/lr/CMakeFiles/demo.dir
+/home/xingjian/Desktop/cpp_file/lr/CMakeFiles/edit_cache.dir
+/home/xingjian/Desktop/cpp_file/lr/CMakeFiles/rebuild_cache.dir
