@@ -1,11 +1,13 @@
 .idea/.name
 *.log
 *.idea
+*.cmake
+
 **/__pycache__
 **/.idea
 **/.ipynb_checkpoints
 **/.makefile
-*.cmake
-/Training_Documents/cpp_file/sub/CMakeList.txt
 **/CMakeFiles
+
+
 
