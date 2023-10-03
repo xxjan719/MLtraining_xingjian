@@ -5,7 +5,7 @@
 **/.idea
 **/.ipynb_checkpoints
 **/.makefile
-**/.cmake
+*.cmake
 /Training_Documents/cpp_file/sub/CMakeList.txt
-/Training_Documents/cpp_file/lr/CMakeFiles
+**/CMakeFiles
 
