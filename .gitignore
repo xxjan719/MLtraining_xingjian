@@ -6,4 +6,6 @@
 **/.ipynb_checkpoints
 **/.makefile
 **/.cmake
-/CMakeList.txt
+/Training_Documents/sub/CMakeList.txt
+/Training_Documents/sub/CMakeCache.txt
+
